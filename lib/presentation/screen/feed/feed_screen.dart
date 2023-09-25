@@ -21,11 +21,17 @@ class _FeedScreenState extends State<FeedScreen> {
           children: [
             Text(
               "FOOTBALFUSION",
-              style: TextStyle(fontSize: 16),
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.white,
+              ),
             ),
             Text(
               'MINIFOOTBALL',
-              style: TextStyle(fontSize: 8),
+              style: TextStyle(
+                fontSize: 8,
+                color: Colors.white,
+              ),
             ),
           ],
         ),
@@ -38,6 +44,7 @@ class _FeedScreenState extends State<FeedScreen> {
           IconButton(
             iconSize: 30,
             icon: const Icon(Icons.notifications_none_rounded),
+            color: Colors.white,
             onPressed: () {},
           ),
         ],

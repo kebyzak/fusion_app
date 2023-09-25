@@ -1,21 +1,28 @@
 import 'package:flutter/material.dart';
 
-import '../../widgets/app_bar.dart';
-
-class ProfileScreen extends StatefulWidget {
-  const ProfileScreen({Key? key}) : super(key: key);
+class AccessScreen extends StatefulWidget {
+  const AccessScreen({Key? key}) : super(key: key);
 
   @override
-  State<ProfileScreen> createState() => _ProfileScreenState();
+  State<AccessScreen> createState() => _AccessScreenState();
 }
 
-class _ProfileScreenState extends State<ProfileScreen> {
+class _AccessScreenState extends State<AccessScreen> {
   @override
   Widget build(BuildContext context) {
     final columnWidth = MediaQuery.of(context).size.width * 0.75;
 
     return Scaffold(
-      appBar: const CustomAppBar(title: 'Профиль'),
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: const Color(0xFF162E30),
+        title: const Text(
+          "Профиль",
+          style: TextStyle(fontSize: 25, color: Colors.white),
+        ),
+        centerTitle: true,
+        automaticallyImplyLeading: false,
+      ),
       backgroundColor: const Color(0xFF162E30),
       body: Center(
         child: Container(

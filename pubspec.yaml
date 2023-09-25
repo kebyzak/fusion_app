@@ -11,15 +11,21 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  bloc: ^8.1.2
   flutter_bloc: ^8.1.3
+  bloc: ^8.1.2
+  bloc_test: ^9.1.4
   introduction_screen: ^3.1.11
+  http: ^1.1.0
+  json_annotation: ^4.8.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   flutter_lints: ^2.0.0
+  freezed: ^2.4.2
+  freezed_annotation: ^2.4.1
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
 
 flutter:
   uses-material-design: true
@@ -40,3 +46,7 @@ flutter:
     - assets/icons/altair.png
     - assets/icons/maqtaral.png
     - assets/icons/t1.png
+    - assets/icons/t2.png
+    - assets/icons/t3.png
+    - assets/icons/t4.png
+    - assets/icons/tablebg.png

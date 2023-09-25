@@ -14,6 +14,6 @@ const kOnboardingSecondTextStyle = TextStyle(
 
 const kOnboardingSkipDone = TextStyle(
 fontWeight: FontWeight.bold,
-fontSize: 18,
+fontSize: 16,
 color: Colors.white,
 );

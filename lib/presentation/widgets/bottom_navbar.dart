@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../screen/feed/feed_screen.dart';
-import '../screen/match/match_screen.dart';
+import '../screen/table/tournaments_screen.dart';
+import '../screen/training/training_screen.dart';
 import '../screen/profile/profile_screen.dart';
-import '../screen/table/table_screen.dart';
 
 class BottomNavbar extends StatefulWidget {
   const BottomNavbar({Key? key}) : super(key: key);
@@ -16,8 +16,8 @@ class _BottomNavbarState extends State<BottomNavbar> {
 
   final screens = [
     const FeedScreen(),
-    const TableScreen(),
-    const MatchScreen(),
+    const TournamentsScreen(),
+    const TrainingScreen(),
     const ProfileScreen(),
   ];
 
@@ -55,7 +55,7 @@ class _BottomNavbarState extends State<BottomNavbar> {
         backgroundColor: const Color(0xFF162E30),
         selectedFontSize: 12,
         unselectedFontSize: 12,
-        selectedItemColor: Colors.white,
+        selectedItemColor: const Color(0xFFFAFF00),
         unselectedItemColor: const Color(0xFF6E7272),
         selectedLabelStyle: const TextStyle(
           fontWeight: FontWeight.w500,
